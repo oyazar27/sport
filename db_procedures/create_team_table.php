@@ -12,6 +12,9 @@ if (mysqli_connect_errno()) {
     exit();       
 }
 
+
+echo "connected!";
+/*
  $query = "CREATE TABLE IF NOT EXISTS SUPERLIG_TAKIMLAR"
          
  ."("
