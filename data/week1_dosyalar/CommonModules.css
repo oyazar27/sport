@@ -1,0 +1,26 @@
+﻿.NCmsLoginBox
+{
+	width:100%;
+}
+
+.NCmsLoginBox td
+{
+	padding-right: 6px; 
+	font-size: 70%; 
+	color: #666666; 
+	line-height: 120%; 
+	font-family: arial;
+}
+
+.NCmsLoginBox .ntextbox
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 1px solid #d9d097;
+	width: 150px;
+	height: 17px;
+	padding-left:3px;
+}
+

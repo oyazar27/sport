@@ -1,0 +1,862 @@
+﻿body {
+	background:#FFFFFF url(Images/design/sayfa.bg.jpg) repeat-x top;
+	margin: 0px;
+	padding:0px;
+}
+form
+{
+margin:0px;
+padding:0px;
+}
+input {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #E30A17;
+}
+select {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #E30A17;
+}
+.marginB {
+	margin-bottom: 10px;
+}
+.marginB5 {
+	margin-bottom: 5px;
+}
+.haberDetailsFont {
+	font-size: 10pt;
+	font-family: Verdana;
+}
+table, div {
+	font-family: Tahoma;
+	font-size: 11px;
+	color:#000000;
+}
+table a{
+	color:#E30A17;
+}
+.TRcolor{
+	color:#E30A17;
+}
+
+.ayyildizBG {
+	background: url(Images/design/tff.table.bg.jpg) no-repeat left top;
+}
+.SolMenuBG {
+	background:url(Images/design/solMenuBG.jpg) no-repeat left top;
+}
+.yuzdeyuzH {
+	height: 100%;
+}
+.yuzdeyuzW {
+	width: 100%;
+}
+.ustMenu {
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.ustMenu a {
+color:#e30a17;
+/* color:0000aa; */
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+.altKesikCizgi
+{
+	background: url(Images/design/nokta.gif) repeat-x bottom;
+}
+.footerBG {
+	background: url(Images/design/footer.bg.gif) repeat-x bottom;
+}
+.footerLinkBG{
+	background: url(Images/design/top.gif) no-repeat left bottom;
+	font-family: Verdana;
+	font-size: 10px;
+
+}
+.solGolge {
+	background: url(Images/design/golge.genelalan.jpg) no-repeat right top;
+}
+.contentPadding {
+	padding: 6px 4px 6px 4px;
+}
+.ortaAlan {
+	padding-right: 10px;
+}
+/*
+.sagAlan {
+	width: 190px;
+}
+*/
+.sagAlan {
+	width: 180px;
+	padding-left: 10px;
+	border-left:#dcdcdc 1px solid;
+}
+.anahaberTabloBG {
+	background: url(Images/design/anahaber.table.bg.gif) repeat-y left;
+}
+
+.anahaberHucreBG {
+	background: url(Images/design/anahaber.hucrebg.gif) no-repeat left top;
+	padding: 8px 10px 8px 10px;
+}
+.icerikTabloBG {
+	background: url(Images/design/anahaber.table.bg.gif) repeat-y left;
+}
+
+.icerikHucreBG {
+	background: url(Images/design/anahaber.hucrebg.gif) no-repeat left top;
+	padding: 8px 10px 8px 10px;
+}
+.haberBaslik {
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	font-weight: bold;
+}
+.icerikBaslik {
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	font-weight: bold;
+}
+.anahaberDiger {
+	background: url(Images/design/haber.dikayirac.gif) repeat-y left;
+	padding-left: 10px;
+	width: 40%;
+}
+.ichaberDiger {
+	padding-top: 10px;
+
+}
+.anahaberLink a {
+	background: url(Images/design/icon.haberlink.gif) no-repeat left 4px;
+	padding-left: 9px;
+	line-height: 12px;
+	color: #666666;
+	font-family: Verdana;
+	font-size: 10px;
+
+}
+.anahaberLink a:hover {
+	text-decoration:underline;
+}
+.ichaberLink a {
+	background: url(Images/design/maviok.gif) no-repeat left 4px;
+	padding-left: 9px;
+	line-height: 12px;
+	color: #333399;
+	font-family: Verdana;
+	font-size: 10px;
+
+}
+.ichaberLink a:hover {
+	text-decoration:underline;
+}
+
+.yazi12px {
+	font-size: 12px;
+}
+.ayirac {
+	height: 10px;
+	width: 100%;
+}
+.miniHaberBaslik {
+	background: #dcdcdc url(Images/design/flashhaber.bg.gif) repeat-y right top;
+}
+.miniHaberCerceve {
+	border:#dcdcdc 1px solid;
+}
+.miniHaberBaslik td{
+	padding: 4px;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+}
+.miniHaberBaslik a{
+	background: url(Images/design/icon.haberlink.gif) no-repeat left 4px;
+	padding-left: 9px;
+	font-size:10px;
+	font-family:Verdana;
+	font-weight: normal;
+}
+.miniHaberContent{
+	background: #FFFFFF url(Images/design/flashhabercontent.bg.gif) repeat-x bottom;
+	padding: 7px;
+}
+.miniHaberYazi td{
+	font-family: Tahoma;
+	font-size: 10px;
+}
+.miniHaberYazi a{
+	color:#000000;
+}
+.miniHaberYazi a:hover{
+	color:#000000;
+	text-decoration:underline;
+}
+.alanlar a {
+	background: url(Images/design/minitop.gif) no-repeat left 2px;
+	padding-left: 14px;
+	color: #000000;
+	font-size: 10px;
+	font-family: Verdana;
+}
+.alanlarContent {
+	background: url(Images/design/alan.gri.bg.gif) repeat-x top;
+	padding: 5px;
+	line-height: 14px;
+
+}
+.alanlar a:hover {
+	text-decoration: underline;
+	background: url(Images/design/minitop2.gif) no-repeat 2px 2px;
+}
+.alanTFF {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #E30A17 url(Images/design/alan.tff.bg.gif) no-repeat right top;
+	padding: 5px 5px 5px 10px;
+}
+.alanMilliTakim {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #E30A17 url(Images/design/alan.millitakim.bg.gif) no-repeat right top;
+	padding: 5px 5px 5px 10px;
+}
+.alanProfesyonel {
+
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #0090cc url(Images/design/alan.profesyonel.bg.gif) no-repeat right top;
+	padding: 5px 5px 5px 10px;
+}
+.alanSuperLig {
+
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #274bb0 url(Images/design/alan.superlig.bg.gif) no-repeat right top;
+	padding: 5px 5px 5px 10px;
+}
+
+.alanMaclarveKupalar {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #2db027 url(Images/design/alan.maclarkupalar.bg.gif) no-repeat right top;
+	padding: 5px 5px 5px 10px;
+}
+.alanMilliTOrg {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #2c9e12 no-repeat right top url('Images/design/alan.euro2008.bg.gif');
+	padding: 5px 5px 5px 10px;
+}
+.alanMilliTEuro2008Img 
+{
+	background: repeat url('Images/design/alan.euro2008.mavi.bg.1.jpg');
+}
+.alanMilliTEuro2008ImgBg
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: no-repeat right top url('Images/design/alan.euro2008.mavi.bg.jpg');
+	padding: 5px 5px 5px 10px;
+}
+.alanMilliTDunyaKupasiOrgImg 
+{
+	background: repeat url('Images/design/alan.dunyakupasi2010.bg.1.gif');
+}
+.alanMilliTDunyaKupasiOrgBg {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: no-repeat right top url('Images/design/alan.dunyakupasi2010.bg.gif');
+	padding: 5px 5px 5px 10px;
+}
+.alanMilliTDunyaKupasiOrgBgEN {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: no-repeat right top url('Images/design/alan.dunyakupasi2010.bg.en.gif');
+	padding: 5px 5px 5px 10px;
+}
+.alanTurkiyeKupasi {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background:#fa0028 no-repeat right top url('Images/design/alan.turkiyekupasi.bg.gif');
+	padding: 5px 5px 5px 10px;
+}
+.ajandaBG {
+	background: #737373 url(Images/design/alan.ajanda.bg.gif) no-repeat left top;
+	height: 20px;
+	padding: 3px;
+}
+.ajandaBorder {
+	padding: 7px;
+	border: 1px solid #777777;
+	font-family: Verdana;
+	font-size: 10px;
+}
+.anketBG {
+	background: #737373 url(Images/design/alan.anket.bg.gif) no-repeat left top;
+	height: 20px;
+	padding: 3px;
+}
+.anketBorder {
+	padding: 7px;
+	border: 1px solid #777777;
+	font-family: Verdana;
+	font-size: 10px;
+}
+.anketTxt {
+	font-family: Verdana;
+	font-size: 10px;
+}
+.anketTxt table
+{
+	font-family: Verdana;
+	font-size: 10px;
+}
+.anketTxt a {
+	background: url(Images/design/icon.haberlink.gif) no-repeat left 4px;
+	padding-left: 9px;
+	margin-right:5px;
+}
+
+.alisverisBG {
+	background:#737373 url(Images/design/alan.alisveris.bg.gif) no-repeat left top;
+	height: 20px;
+	padding: 3px;
+}
+.alisverisBorder {
+	padding: 7px;
+	border: 1px solid #777777;
+	font-family: Verdana;
+	font-size: 10px;
+}
+
+.alisverisTxt {
+	font-family: Verdana;
+	font-size: 10px;
+}
+.alisverisTxt a {
+	background: url(Images/design/icon.haberlink.gif) no-repeat left 4px;
+	padding-left: 9px;
+	margin-right:5px;
+}
+
+
+.footerTopBG {
+	background: url(Images/design/topustu.bg.gif) no-repeat 19px bottom;
+}
+.puanDurumBaslik {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #002b6f;
+}
+.MacSonuclariBaslik {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #002b6f;
+	padding: 4px;
+}
+.MacSonucTxt {
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.MacSonucCizgi {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #eaeffa;
+}
+.MacSonucSkor {
+	background-color: #eaeffa;
+	color: #002b6f;
+	width: 16px;
+}
+.MacSonraki {
+
+	background-color: #eaeffa;
+	color: #002b6f;
+}
+.MacSonraki a{
+	color: #002b6f;
+	font-family:Verdana;
+	font-size:10px;
+	background: url(Images/design/icon.haberlink.gif) no-repeat left 4px;
+	padding-left: 9px;
+	margin-right:5px;
+}
+.GriBorder {
+	border: 1px solid #dedede;
+}
+.GriBorder2 {
+	border: 1px solid #f2f2f2;
+}
+.beyazBG {
+	background-color: #FFFFFF;
+}
+.altGriCizgi {
+	border-bottom: #dedede 1px solid;
+}
+.MacSonucBG {
+	background: url(Images/design/euro2008transparanbg.jpg) no-repeat center center;
+
+}
+.MacDetayBG {
+	background: url(Images/design/macskor.bg.gif) repeat-x top;
+	margin-bottom: 10px;
+}
+.MacDetayMiniBaslik {
+	font-weight: bold;
+	color: #E30A17;
+	background-color: #dedede;
+}
+
+.MacDetaySayi {
+	font-family: Arial;
+	font-size: 32px;
+	color: #002b6f;
+	background-color: #e8f6ff;
+	font-weight: bold;
+	margin-right: 20%;
+	margin-left: 20%;
+	padding: 10px;
+
+}
+.MacDetayAltBG {
+	background: url(Images/design/macskor.altbg.gif) repeat-x bottom;
+	line-height: 18px;
+	padding: 10px;
+}
+.TakimAdi {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.TakimKartBG {
+	background: #FFFFFF url(Images/design/macskor.bg.gif) repeat-x top;
+}
+
+.TakimKartAltBG,
+.OyuncuKartAltBG,
+.HakemKartAltBG ,
+.AntrenorKartAltBG  {
+
+	background: url(Images/design/macskor.altbg.gif) repeat-x bottom;
+	line-height: 18px;
+}
+.StadyumBaslik,
+.TakimKartiAdi,
+.OyuncuKartiBaslik,
+.HakemKartiBaslik ,
+.SponsorDBaslik,
+.AntrenorKartiBaslik 
+{
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #E30A17;
+}
+.OyuncuKartBG,
+.HakemKartBG,
+.AntrenorKartBG {
+
+	background: #FFFFFF url(Images/design/macskor.bg.gif) repeat-x -6px;
+}
+
+.OyuncuAltBaslik,
+.HakemAltBaslik,
+.sezonHaftalari,
+.StadyumAltBaslik,
+.AntrenorAltBaslik {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #002b6f;
+}
+
+.golKralBaslik {
+	background: url(Images/design/hr.gri.gif) repeat-x bottom;
+	padding-bottom: 7px;
+}
+.GolKralligiBG {
+	background: #FFFFFF url(Images/design/macskor.bg.gif) repeat-x top;
+	margin-bottom: 10px;
+}
+.usteBG {
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.altaBG {
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.solaBG {
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.sagaBG {
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.HafMaclariBaslik {
+
+	background: url(Images/design/hr.gri.gif) repeat-x bottom;
+	padding-bottom: 7px;
+}
+.griBG {
+	background-color: #f2f2f2;
+}
+.griBG2 {
+	background-color: #dedede;
+}
+.PuanTBaslik {
+	background: url(Images/design/hr.gri.gif) repeat-x bottom;
+	padding-bottom: 7px;
+}
+.SolGriBorder {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #dedede;
+}
+
+.Sponisim {
+
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SponsorBaslik,
+.TakimKBaslik,
+.FiksturBaslik,
+.YonetimKBaslik,
+.MacAramaBaslik,
+.KulupAraBaslik,
+.OyuncuAraBaslik,
+.TdirektorBaslik,
+.HakemAraBaslik,
+.GozlemciAraBaslik,
+.StadAraBaslik,
+.CezaAraBaslik
+{
+	background: url(Images/design/hr.gri.gif) repeat-x bottom;
+	padding-bottom: 7px;
+}
+.FiksturTakimAdi {
+	font-family: Arial;
+	font-size: 12px;
+	color: #274bb0;
+	font-weight: bold;
+}
+
+.solmenuCizgi {
+
+	background: url(Images/design/solmenucizgi.gif) repeat-x bottom;
+	padding-bottom:4px;
+}
+.haftaNoOn {
+	border: 1px solid #dedede;
+}
+.haftaNoActive,
+.haftaNoActive a {
+	color: #FFFFFF;
+	background-color: #e30a17;
+}
+.haftaMaclariBaslik {
+	font-weight: bold;
+	color: #dedede;
+	background-color: #999999;
+	padding:0px 15px 0px 15px;
+}
+.haftaNoOff {
+	background-color: #dedede;
+}
+
+.nostalji a {
+	color: #9f8e53;
+	text-decoration: underline;
+}
+.nostaljiRenk {
+	color: #9f8e53;
+
+}
+.nostaljiBaslik {
+	background: url(Images/design/unutmaBaslik.gif) no-repeat left top;
+	padding-top: 25px;
+	padding-left: 70px;
+}
+.nostaljiContent {
+	border-right: 1px solid #c4b580;
+	border-left: 1px solid #c4b580;
+	background-color: #f9f3dc;
+}
+.b
+{
+font-weight:bold;
+}
+
+.yazi14px {
+	font-size: 14px;
+}
+.yaziArial {
+	font-family: Arial;
+}
+.popupImg {
+/* Bu 640 x 480 pencere açar, içerde javascriptle birlikte kullanılmalıdır */
+}
+.yazi10px {
+
+	font-size: 10px;
+}
+.alanDokuman {
+
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #f79400 url(Images/design/alan.dokuman.bg.gif) no-repeat right top;
+	padding: 5px 5px 5px 10px;
+}
+.alanlarDok a {
+	color: #DC6901;
+	font-size: 10px;
+	font-family: Verdana;
+}
+.hsohbetBaslik,
+ContBaslik {
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 17px;
+}
+.imgSolda {
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+.imgSagda {
+	float: right;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+.haber4lu {
+	margin-bottom: 6px;
+}
+.haber4lu .bg {
+	padding-bottom: 6px;
+	background: url(Images/design/gri.cizgikesik.gif) repeat-x bottom;
+	vertical-align: top;
+}
+.haber4lu .bg p{
+	font-family: "Trebuchet MS";
+	font-size: 1.3em;
+	font-weight: bold;
+	vertical-align: bottom;
+	line-height: 1.2em;
+}
+
+.haberDetay {
+	margin-bottom: 6px;
+}
+.haberListe .baslik {
+	font-family: "Trebuchet MS";
+	font-size: 1.3em;
+	font-weight: bold;
+	vertical-align: bottom;
+	line-height: 1.2em;
+}
+.haberListe a {
+	background: url(Images/design/iconHaber.gif) no-repeat left 2px;
+	padding-left: 22px;
+
+}
+.haberDetay .bg {
+	padding-bottom: 6px;
+	background: url(Images/design/gri.cizgikesik.gif) repeat-x bottom;
+	vertical-align: top;
+}
+.haberDetay .bg p{
+	font-family: "Trebuchet MS";
+	font-size: 1.8em;
+	font-weight: bold;
+	vertical-align: bottom;
+	line-height: 1.2em;
+}
+
+
+.griTxt {
+	color: #666666;
+	line-height: 14px;
+}
+.griTxt a {
+	color: #666666;
+}
+
+.contentH .baslik {
+	padding: 5px 5px 5px 15px;
+	background: url(Images/design/header.gri.bg.gif) repeat-y left;
+	font-family: "Trebuchet MS";
+	font-size: 1.4em;
+	font-weight: bold;
+}
+.contentH2 .baslik {
+	padding: 5px 5px 5px 15px;
+	background: url(Images/design/header.gri.bg3.gif) repeat-y left;
+	font-family: "Trebuchet MS";
+	font-size: 1.4em;
+	font-weight: bold;
+}
+.contentOpt a {
+	font-family: Verdana;
+	font-size: 10px;
+	margin-right: 15px;
+}
+.altCizgiGrid td {
+	border-bottom: 1px solid #dedede;
+}
+.moduleH {
+	background: url(Images/design/cont.icbaslik.gri.gif) repeat-x bottom;
+}
+.moduleH .baslik{
+	font-size: 12px;
+	font-weight: bold;
+	color: #E30A17;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+.yaziTre {
+	font-family: "Trebuchet MS";
+}
+.yazi16px {
+	font-size: 16px;
+}
+.yazi18px {
+	font-size: 18px;
+}
+.siyah a{
+	color:#000000;
+}
+.siyah a:hover{
+	color:#E30A17;
+}
+.alanTFFMavi {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #238bd6 url(Images/design/alan.tff.bg3.gif) no-repeat right top;
+	padding: 5px 5px 5px 10px;
+}
+.pageNo .link a,
+.pageNo div .link a
+{
+padding:2px 5px 2px 5px;
+margin:1px;
+background:#df0916 url(Images/design/pageno.bg.gif) repeat-x top;
+color:#FFFFFF;
+font-weight:bold;
+text-decoration:none;
+border:#FFFFFF 1px solid;
+}
+.pageNo .link a:hover,
+.pageNo div .link a:hover
+{
+padding:2px 5px 2px 5px;
+margin:1px;
+background:#df0916 url(Images/design/pageno.hoverbg.gif) repeat-x top;
+color: #FFD7D8;
+font-weight:bold;
+text-decoration:none;
+border:#9b0001 1px solid;
+}
+
+.pageNo .aktif
+{
+padding:2px 5px 2px 5px;
+margin:1px;
+background:#cacaca url(Images/design/pageno.activebg.gif) repeat-x top;
+color:#df0916;
+font-weight:bold;
+text-decoration:none;
+border:#FFFFFF 1px solid;
+}
+
+.galeriKat .link a
+{
+display:block;
+background:#9c9c9c url(Images/design/galeri.butnormbg.gif) repeat-x top;
+color:#ffffff;
+font-weight:bold;
+font-size:11px;
+text-align:center;
+line-height:20px;
+text-decoration:none;
+border:#9c9c9c 1px solid;
+white-space:nowrap;
+}
+.galeriKat .link a:hover
+{
+display:block;
+background:#a10102 url(Images/design/galeri.butoverbg.gif) repeat-x top;
+color:#ffffff;
+font-weight:bold;
+font-size:11px;
+text-align:center;
+line-height:20px;
+text-decoration:none;
+border:#a10102 1px solid;
+white-space:nowrap;
+}
+.galeriKat .aktif a
+{
+cursor:default;
+display:block;
+background:#a10102 url(Images/design/galeri.butoverbg.gif) repeat-x top;
+color:#ffffff;
+font-weight:bold;
+font-size:11px;
+text-align:center;
+line-height:20px;
+text-decoration:none;
+border:#9c9c9c 1px solid;
+white-space:nowrap;
+}

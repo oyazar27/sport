@@ -1,0 +1,53 @@
+
+window.OPENSHIFT_CONFIG = {
+  apis: {
+    hostPort: "api.starter-us-east-1.openshift.com",
+    prefix: "/apis"
+  },
+  api: {
+    openshift: {
+      hostPort: "api.starter-us-east-1.openshift.com",
+      prefix: "/oapi"
+    },
+    k8s: {
+      hostPort: "api.starter-us-east-1.openshift.com",
+      prefix: "/api"
+    }
+  },
+  auth: {
+  	oauth_authorize_uri: "https://api.starter-us-east-1.openshift.com/oauth/authorize",
+	oauth_token_uri: "https://api.starter-us-east-1.openshift.com/oauth/token",
+  	oauth_redirect_base: "https://console.starter-us-east-1.openshift.com/console/",
+  	oauth_client_id: "openshift-web-console",
+  	logout_uri: "https://developers.redhat.com/auth/realms/rhd/protocol/openid-connect/logout?post_logout_redirect_uri=https://api.starter-us-east-1.openshift.com"
+  },
+  
+  limitRequestOverrides: {
+	limitCPUToMemoryPercent: 200,
+	cpuRequestToLimitPercent: 6,
+	memoryRequestToLimitPercent: 60
+  },
+  
+  loggingURL: "https://logs.starter-us-east-1.openshift.com",
+  metricsURL: "https://metrics.starter-us-east-1.openshift.com/hawkular/metrics"
+};
+
+window.OPENSHIFT_VERSION = {
+  openshift: "v3.5.5.19",
+  kubernetes: "v1.5.2+43a9be4"
+};
+
+window.OPENSHIFT_EXTENSION_PROPERTIES = {
+
+  "support_link": "https://docs.openshift.com/online/getting_started/devpreview_faq.html#devpreview-faq-support",
+  "CLI_linux64": "https://mirror.openshift.com/pub/openshift-v3/clients/3.5.5.19/linux/oc.tar.gz",
+  "CLI_mac": "https://mirror.openshift.com/pub/openshift-v3/clients/3.5.5.19/macosx/oc.tar.gz",
+  "online_version": "3.5.0.20",
+  "registration_link": "https://www.openshift.com/devpreview/register.html",
+  "status_widget_key": "false",
+  "status_link": "https://status.starter.openshift.com",
+  "status_page": "https://lhzjj4v7mmyd.statuspage.io/api/v2/summary.json",
+  "doc_url": "https://docs.openshift.com/online/",
+  "enable_pipelines": "true",
+  "CLI_windows": "https://mirror.openshift.com/pub/openshift-v3/clients/3.5.5.19/windows/oc.zip"
+};

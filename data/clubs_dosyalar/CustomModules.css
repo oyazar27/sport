@@ -1,0 +1,173 @@
+﻿.LeftFrameBG {
+	background-attachment: fixed;
+	background-image: url(images/frame_gribg.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	width:100%;
+}
+.RightFrameBG {
+	margin: 15px;
+	background-color: #FFFFFF;
+}
+.baslikSayfa {
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #f5a3a8;
+	padding-bottom: 5px;
+}
+.baslikSol {
+	background-image: url(images/baslik_sol.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.baslikSag {
+	background-image: url(images/baslik_sag.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.baslikMetin {
+	background-image: url(images/baslik_bg.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	padding-right: 4px;
+	padding-left: 4px;
+	color: #CC0000;
+	padding-top: 4px;
+}
+.baslikBicim {
+	height: 28px;
+}
+.butonsSol {
+
+	background-image: url(images/but_sol.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.butonsSag {
+
+	background-image: url(images/but_sag.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.butonMetin {
+	background-image: url(images/but_bg.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+}
+.icerikTab {
+	padding: 5px;
+}
+.miniBaslikBG {
+	font-weight: bold;
+	background-image: url(images/minibaslik_bg.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.altCizgi {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #eaeaea;
+}
+.altCizgiKalin {
+
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #eaeaea;
+	padding-bottom:3px
+}
+.belirginYazi {
+	color: #3300CC;
+	font-weight: bold;
+	font-size: 12px;
+}
+.mavi:link {
+	color: #003399;
+}
+.mavi:hover {
+	color: #000066;
+}
+.mavi:visited {
+
+	color: #003399;
+}
+.genelBorder {
+	border: 1px solid #dadada;
+}
+.beyazTxt {
+	color: #FFFFFF;
+}
+.yazi10px {
+	font-size: 10px;
+}
+.yazi12px {
+	font-size: 12px;
+}
+.zorunluAlan {
+	color: #FF0000;
+}
+.butBG {
+	background-color: #f2f2f2;
+}
+.softBG {
+
+	background-color: #f2f2f2;
+}
+.yesil:link {
+	color: #009900;
+}
+.yesil:hover {
+	color: #009900;
+	text-decoration: underline;
+}
+.yesil:visited {
+	color: #009900;
+}
+.hizliMenu:link {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #009900;
+	text-decoration: none;
+	background-image: url(images/icon/icon_ok.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 18px;
+}
+.hizliMenu:hover {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #009900;
+	text-decoration: underline;
+	background-image: url(images/icon/icon_ok.gif);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	padding-left: 18px;
+}
+.hizliMenu:visited {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #009900;
+	text-decoration: none;
+	background-image: url(images/icon/icon_ok.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 15px;
+}
+.hizlimenuBorder {
+	border: 1px solid #dadada;
+	background-image: url(images/hizlimenubg.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}

@@ -1,0 +1,127 @@
+.RadTabStrip_TFF_Content
+{
+	font: 10px Tahoma;
+	font-weight:bold;
+}
+
+.RadTabStrip_TFF_Content .level1 a,
+.RadTabStrip_TFF_Content .levelwrap a
+{
+	font: 11px Tahoma;
+	font-weight:bold;
+}
+
+
+.RadTabStrip_TFF_Content li a
+{
+	padding-left: 4px;
+	background: transparent url('img/sekLeft.gif') 0px 0px no-repeat;
+	margin-right:3px;
+	line-height: 21px;
+	text-decoration:none;
+}
+
+.RadTabStrip_TFF_Content li a .wrap
+{
+
+	padding-right: 4px;
+	line-height: 21px;
+	background:transparent url('img/sekRight.gif') right 0px no-repeat;
+}
+
+.RadTabStrip_TFF_Content li a:hover
+{
+
+}
+
+.RadTabStrip_TFF_Content li a .innerWrap
+{
+	line-height: 21px;
+	background:transparent url('img/sekMiddle.gif') 0px 0px repeat-x;
+	text-align: center;
+	padding-right:2px;
+	padding-left:2px;
+}
+
+.RadTabStrip_TFF_Content li a.selected
+{
+	padding-left: 4px;
+	background: transparent url('img/sekLeftSelected.gif') 0px 0px no-repeat;
+	line-height: 21px;
+}
+
+.RadTabStrip_TFF_Content li a.selected .wrap
+{
+	background-image:url('img/sekRightSelected.gif');
+	line-height: 21px;
+	padding-right: 4px;
+	color: #65727c;
+}
+
+.RadTabStrip_TFF_Content li a.selected .innerWrap
+{
+	background-image:url('img/sekMiddleSelected.gif');
+	padding-top: 0px;
+	padding-right:2px;
+	padding-left:2px;
+}
+
+.RadTabStrip_TFF_Content li a.disabled,
+.RadTabStrip_TFF_Content li a.disabled .wrap,
+.RadTabStrip_TFF_Content li a.disabled .innerWrap
+{
+	cursor: default;
+	text-decoration: line-through;
+}
+
+.RadTabStrip_TFF_Content li a.red,
+.RadTabStrip_TFF_Content li a.red .wrap,
+.RadTabStrip_TFF_Content li a.red .innerWrap
+{
+	color: red;
+}
+
+/* scrolling arrows */
+
+.RadTabStrip_TFF_Content .leftArrow
+{
+	background-image:url(img/ScrollLeft.gif);
+	background-repeat: no-repeat;
+	height: 11px;
+	width: 8px;
+}
+
+.RadTabStrip_TFF_Content .rightArrow
+{
+	background-image:url(img/ScrollRight.gif);
+	background-repeat: no-repeat;
+	height: 11px;
+	width: 8px;
+}
+
+/* Disabled Arrows */
+
+.RadTabStrip_TFF_Content .rightArrowDisabled, 
+.RadTabStrip_TFF_Content .leftArrowDisabled
+{
+	background-repeat: no-repeat;
+	cursor:default;
+	height: 11px;
+	width: 8px;
+}
+
+.RadTabStrip_TFF_Content .leftArrowDisabled
+{
+	background-image:url(img/ScrollLeftDisabled.gif);
+	height: 11px;
+	width: 8px;
+	background-repeat: no-repeat;
+}
+
+.RadTabStrip_TFF_Content .rightArrowDisabled
+{
+	background-image:url(img/ScrollRightDisabled.gif);
+	height: 11px;
+	width: 8px;
+	background-repeat: no-repeat;
+}

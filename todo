@@ -1,0 +1,22 @@
+
+
+1. DB Procedures -> Create tables
+    1.1 Teams table
+    1.2 Matches table
+2. Extract data
+    2.1 Team data
+    Save league team table as html,  then extract URLs and data
+    2.2 Match data
+    Save weekly match table and use URLs to extract details
+
+
+
+create_team_table   Takım tablosu
+create_match_table  Maç tablosu
+
+teams.php           Elle save edilen listeden takımların URL'lerini alır
+clubdata.php        Takım detaylarını alır
+match_URL.php       Elle save edilen haftalık fikstürden maç detay URL'lerini alır
+match_detail.php    Maç detaylarını alır
+
+

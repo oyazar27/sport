@@ -1,0 +1,187 @@
+.AdmPageEditor
+{
+	width:998px;
+	background-color:WhiteSmoke;
+	color:Black;
+	font-size:11px;
+	font-family:Tahoma;
+}
+
+.AdmManagerTable
+{
+	background-color:#ADC9F7;
+	color:White;
+	font-weight:bold;
+	width:100%;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+}
+
+.AdmME /* ModuleEditor */
+{
+	background-color: #ADC9F7;
+	color:Green;
+	font-weight:bold;
+	width:100%;
+}
+
+.AdmPageEditorLink
+{
+	color:Black;
+	font-weight:bold;
+}
+
+.AdmBtn
+{
+	background-color:WhiteSmoke;
+	color:Blue;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.AdmPanel
+{
+	height:20px; 
+	vertical-align:middle; 
+	background-color:Blue;
+	text-align:center;
+	color:Yellow;
+	font-size:12px;
+	font-family:Tahoma;
+}
+
+.AdmTitle
+{
+	color:Blue;
+	font-weight:bold;
+	background-color:Yellow;
+}
+
+.AdmComboDiv
+{
+	cursor:hand;
+	border:dotted 1px black;
+	padding: 2px 2px 4px 2px;
+}
+
+.AdmMng, AdmMng:visited
+{
+	color:Black;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.AdmMng:hover, AdmMng:visited:hover
+{
+	color:Blue;
+}
+
+.AdmAltCizgi
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #EAEAEA;
+}
+
+.AdmMng select
+{
+	font-weight:bold;
+}
+
+.AdmStr
+{
+	color:Black;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.AdmText
+{
+	color:Black;
+	font-size:11px;
+	font-weight:normal;
+	font-family:Tahoma;
+}
+
+.AdmWrn {
+	border: 1px solid #666666;
+	background-color: #FFFFCC;
+	font-size: 11px;
+	font-family: tahoma, verdana;
+	font-weight: bold;
+	color: #E10000;
+	padding:2px;
+}
+
+.AdmSelect{
+	font-size: 12px;
+	font-weight:bold;
+	padding:2px;
+}
+
+.AdmA:hover
+{
+	background-color:Yellow;
+	cursor:hand;
+}
+
+.AdmGenelRenk {
+	background-color: #156dac;
+}
+
+.AdmMaviBar {
+	background-color: #065186;
+}
+
+.AdmAltBar {
+	background-image: url(AdmImg/footer.bg.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #156dac;
+	color: #FFFFFF;
+	padding: 10px;
+}
+
+.AdmSayfa {
+	/*background-color: #156dac;*/
+	background-image: none;
+	background-color: Black;
+}
+
+.AdmContentH {
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #f2f2f2;
+}
+
+.Adm12px {
+	font-size: 12px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.AdmHand
+{
+	cursor:hand;	
+}
+
+.AdmRequired
+{
+	font-weight:bold;
+	color :Red;	
+}
+
+.AdmModTitleInCombo
+{
+	color:Navy;	
+}
+
+.AdmS
+{
+	color:Black;
+	font-size:10px;
+}

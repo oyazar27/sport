@@ -1,0 +1,148 @@
+.RadPanelbar_TFF_SolMenuKlasik
+{
+	white-space: nowrap;
+	text-align:left;
+	width:180px;
+	max-width:180px;
+	min-width:180px;
+}
+
+.RadPanelbar_TFF_SolMenuKlasik .rootGroup
+{
+
+}
+
+.RadPanelbar_TFF_SolMenuKlasik .text
+{
+	color: #000000;
+	font: normal 11px Tahoma, Verdana, Sans-serif;
+	padding-top: 0px;
+	padding-right: 3px;
+	padding-bottom: 0px;
+	padding-left: 12px;
+}
+
+.RadPanelbar_TFF_SolMenuKlasik .image
+{
+	margin: 4px 0px;
+}
+
+
+.RadPanelbar_TFF_SolMenuKlasik .rootGroup .text
+{
+	background-image: url(Img/menunorm.gif);
+	background-repeat: no-repeat;
+	line-height: 19px;
+	font-weight: bold;
+
+}
+
+.RadPanelbar_TFF_SolMenuKlasik .rootGroup .link
+{
+	background-image: url(Img/menunorm.gif);
+	background-repeat: no-repeat;
+	margin-bottom:1px;
+	font-weight: bold;
+}
+
+.RadPanelbar_TFF_SolMenuKlasik .group .text
+{
+	background-image: url(Img/menunorm.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	border-right: none;
+	margin-left:12px;
+	font-size:11px;
+	font-weight: bold;
+}
+
+.RadPanelbar_TFF_SolMenuKlasik .group .link
+{
+	background: none;
+	font-weight: bold;
+}
+
+
+.RadPanelbar_TFF_SolMenuKlasik .rootGroup .expanded
+{
+	background-image: url(Img/menuSelect.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-weight: bold;
+}
+
+.RadPanelbar_TFF_SolMenuKlasik .group .expanded
+{
+	background-image: url(Img/menuSelect.gif);
+	background-repeat: no-repeat;
+	background-position: 14px;
+	border-bottom: 0px;
+	font-weight: bold;
+}
+.RadPanelbar_TFF_SolMenuKlasik .group .level1 .expanded
+{
+	background-color:none;
+}
+
+.RadPanelbar_TFF_SolMenuKlasik .rootGroup .expanded .text
+{
+	font-weight: bold;
+}
+
+.RadPanelbar_TFF_SolMenuKlasik .rootGroup .selected .text
+{
+	font-weight: bold;
+}
+
+.RadPanelbar_TFF_SolMenuKlasik .selected .text
+{
+	text-decoration: none;
+	font-weight: bold;
+	border-top: 0;
+	/*color: #e30a17;*/
+	color:#990000;
+}
+.RadPanelbar_TFF_SolMenuKlasik .group .selected .text
+{
+	background-image: url('Img/menuSelect.gif');
+	background-repeat: no-repeat;
+	background-position: 2px;
+	text-decoration: none;
+	font-weight: bold;
+	border-top: 0;
+	/*color: #e30a17;*/
+	color:#990000;
+}
+
+.RadPanelbar_TFF_SolMenuKlasik .group .expanded .text
+{
+	border-top:0;
+	color: #000;
+	font-weight: bold;
+	
+}
+
+.RadPanelbar_TFF_SolMenuKlasik .level2 .text
+{
+	margin-left: 24px;
+	line-height: 19px;
+	font-weight: bold;
+}
+
+.RadPanelbar_TFF_SolMenuKlasik .rootGroup .disabled:hover,
+.RadPanelbar_TFF_SolMenuKlasik .rootGroup .disabled .text
+{
+	color: #ccc;
+	cursor: default;
+	font-weight: bold;
+}
+
+.RadPanelbar_TFF_SolMenuKlasik .rootGroup .group .disabled:hover,
+.RadPanelbar_TFF_SolMenuKlasik .rootGroup .group .disabled .text
+{
+	text-decoration: none;
+	background: none;
+	color: #ccc;
+	cursor: default;
+	font-weight: bold;
+}

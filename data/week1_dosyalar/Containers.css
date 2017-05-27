@@ -1,0 +1,255 @@
+.ContH {
+	background: url(Images/design/cont.gribaslik.bg.gif) repeat-y left 5px;
+}
+.ContH .baslik {
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	font-weight: bold;
+	padding:3px;
+}
+
+.kirmiziContH {
+
+}
+
+.kirmiziBorder {
+
+	border: 1px solid #ff9999;
+}
+.kirmiziBorder .griTxt,
+.kirmiziBorder .griTxt a
+{
+	color: #666666;
+}
+.kirmiziBorder .haber4lu .bg{
+
+	background-image: url(Images/design/kirmizi.cizgikesik.gif);
+}
+.kirmiziBorder .griBG {
+	background: #fff3f3 url(Images/design/kirmizi.altgrad.bg.gif) repeat-x top;
+}
+.kirmiziBorder .PuanTBaslik,
+.kirmiziBorder .SponsorBaslik,
+.kirmiziBorder .TakimKBaslik,
+.kirmiziBorder .FiksturBaslik,
+.kirmiziBorder .YonetimKBaslik,
+.kirmiziBorder .MacAramaBaslik,
+.kirmiziBorder .KulupAraBaslik,
+.kirmiziBorder .OyuncuAraBaslik,
+.kirmiziBorder .golKralBaslik,
+.kirmiziBorder .HafMaclariBaslik
+{
+background-image:url(Images/design/hr.kirmizi.gif)
+}
+
+.kirmiziBorder .moduleH
+{
+	background-image: url(Images/design/cont.icbaslik.kirmizi.gif);
+}
+.kirmiziBorder .moduleH .baslik
+{
+	color: #003399;
+}
+
+.kirmiziContH {
+	background: url(Images/design/cont.kirmizibaslik.bg.gif) repeat-y left;
+}
+.kirmiziContH .baslik {
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	color:#E30A17;
+	font-weight: bold;
+	padding:3px;
+}
+
+.kirmiziBorder .baslik {
+	background: url(Images/design/kirmizi.altgrad.bg.gif) repeat-x top #fff3f3;
+	font-family:"Trebuchet MS";
+	font:14px bold;
+	color:#E30A17;
+	padding:3px;
+}
+.maviBorder .baslik {
+	background: #e6f3ff url(Images/design/mavi.altgrad.bg.gif) repeat-x top;
+	font-family:"Trebuchet MS";
+	font: 14px bold;
+	color:#E30A17;
+	padding:3px;
+}
+
+
+.maviBorder {
+
+	border: 1px solid #99ccff;
+}
+.maviBorder .griTxt,
+.maviBorder .griTxt a
+{
+
+	color: #666666;
+}
+.maviBorder .haber4lu .bg{
+
+	background-image: url(Images/design/mavi.cizgikesik.gif);
+}
+.maviBorder .griBG {
+	background: #e6f3ff url(Images/design/mavi.altgrad.bg.gif) repeat-x top;
+}
+.maviBorder .baslik {
+	background: #e6f3ff url(Images/design/mavi.altgrad.bg.gif) repeat-x top;
+	font-family:"Trebuchet MS";
+	font:14px bold;
+	color:#003399;
+	padding:3px;
+}
+.maviBorder .PuanTBaslik,
+.maviBorder .SponsorBaslik,
+.maviBorder .TakimKBaslik,
+.maviBorder .FiksturBaslik,
+.maviBorder .YonetimKBaslik,
+.maviBorder .MacAramaBaslik,
+.maviBorder .KulupAraBaslik,
+.maviBorder .OyuncuAraBaslik,
+.maviBorder .golKralBaslik,
+.maviBorder .HafMaclariBaslik,
+.maviBorder .CezaAraBaslik
+{
+background-image:url(Images/design/hr.mavi.gif)
+}
+
+.maviBorder a
+{
+color:#003399;
+}
+.maviBorder .moduleH
+{
+	background-image: url(Images/design/cont.icbaslik.mavi.gif);
+}
+.maviBorder .moduleH .baslik
+{
+	color: #003399;
+}
+.maviContH {
+	background: url(Images/design/cont.mavibaslik.bg.gif) repeat-y left;
+}
+.maviContH .baslik {
+	font-family: "Trebuchet MS";
+	font: 14px bold;
+	color:#003399;
+	padding:3px;
+}
+
+.milliTakimTablo
+{
+/* Milli Takýmla Ýlgili tablolar için genel tasarým */
+}
+.milliTakimTablo .baslik
+{
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #002b6f;
+	padding: 4px;
+}
+.milliTakimTablo .yazi
+{
+font-family:Verdana;
+font-size:11px;
+color: #002b6f;
+}
+.milliTakimTablo .altGriCizgi
+{
+	border-bottom: 1px solid #eaeffa;
+}
+.milliTakimTablo .griBG
+{
+	background-color:#eaeffa;
+}
+.moduleTitle {
+	color:#ffffff;
+}
+
+/** Container Saðlý solllu arkaplan için buradan baþladýk **/
+.alanMilliTakimFlip {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #E30A17 url(Images/design/alan.millitakim.bg.gif) no-repeat right top;
+}
+.alanMilliTakimFlip .moduleTitle {
+	padding: 5px 5px 5px 10px;
+	background:url(Images/design/alan.millitakim.bgFlip.gif) no-repeat left top;
+}
+.alanMaclarveKupalarFlip {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background:#2db027 url(Images/design/alan.maclarkupalar.bg.gif) no-repeat right top;
+}
+.alanMaclarveKupalarFlip .moduleTitle {
+	padding: 5px 5px 5px 10px;
+	background: url(Images/design/alan.maclarkupalar.bgFlip.gif) no-repeat left top;
+}
+.alanTFFFlip {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background:#E30A17 url(Images/design/alan.tff.bg.gif) no-repeat right top;
+}
+.alanTFFFlip .moduleTitle {
+	padding: 5px 5px 5px 10px;
+	background: url(Images/design/alan.tff.bgFlip.gif) no-repeat left top;
+}
+.alanTFFMaviFlip {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background:#238bd6 url(Images/design/alan.tff.bg3.gif) no-repeat right top;
+}
+.alanTFFMaviFlip .moduleTitle {
+	padding: 5px 5px 5px 10px;
+	background: url(Images/design/alan.tff.bg3Flip.gif) no-repeat left top;
+}
+.alanProfesyonelFlip {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background:#0090cc url(Images/design/alan.profesyonel.bg.gif) no-repeat right top;
+}
+.alanProfesyonelFlip .moduleTitle {
+	padding: 5px 5px 5px 10px;
+	background: url(Images/design/alan.profesyonel.bgFlip.gif) no-repeat left top;
+}
+.alanSuperLigFlip {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background:#274bb0 url(Images/design/alan.superlig.bg.gif) no-repeat right top;
+}
+.alanSuperLigFlip .moduleTitle {
+	padding: 5px 5px 5px 10px;
+	background: url(Images/design/alan.superlig.bgFlip.gif) no-repeat left top;
+}
+.alanTurkiyeKupasiFlip {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background:#fa0028 url(Images/design/alan.turkiyekupasi.bg.gif) no-repeat right top;
+}
+.alanTurkiyeKupasiFlip .moduleTitle {
+	padding: 5px 5px 5px 10px;
+	background: url(Images/design/alan.turkiyekupasi.bgFlip.gif) no-repeat left top;
+}
+form
+{
+margin:0px;
+padding:0px;
+}
